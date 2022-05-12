@@ -22,7 +22,6 @@ public class Base {
         System.setProperty("webdriver.chrome.driver","src/main/driver/chromedriver.exe");
         System.out.println(System.getProperty("webdriver.chrome.driver"));
 
-        //ChromeOptions chromeOptions = new ChromeOptions();
  /*       chromeOptions.addArguments("--whitelist-ip *");
         chromeOptions.addArguments("--proxy-server='direct://'");
         chromeOptions.addArguments("--proxy-bypass-list=*");
